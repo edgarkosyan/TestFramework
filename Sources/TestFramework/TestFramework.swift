@@ -1,6 +1,6 @@
-public struct TestFramework {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+public struct SDK {
+    public static func greeting() {
+        print("Hello Chigga")
     }
 }
